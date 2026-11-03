@@ -1,0 +1,106 @@
+locale: es_ES
+tagline: Tiempos de llegada del autobús urbano
+home: /
+skip: Saltar al contenido
+
+nav:
+  label: Principal
+  features: Funciones
+  screenshots: Capturas
+  privacy: Privacidad
+  switch_short: EN
+  switch_name: English
+
+play:
+  alt: Disponible en Google Play
+  badge: /assets/img/google-play-badge-es.png
+  soon: Próximamente en Google Play
+
+hero:
+  eyebrow: Autobuses urbanos de Zamora
+  title: ¿Cuánto le falta a tu bus?
+  lead: Tiempos de llegada en tiempo real de tus paradas favoritas y de las que tienes más cerca.
+  note: Gratis · Sin registro · Android 8 o superior
+  board_label: Panel de parada de ejemplo con las próximas llegadas a la plaza de Alemania
+  board_stop: PARADA 153 · PZA. ALEMANIA
+
+stats:
+  label: Datos
+  lines: líneas, regulares y especiales
+  stops: paradas, con su foto a pie de calle
+  since: una app nueva para Zamora
+  free: sin cuentas ni registros
+
+story:
+  kicker: Funciones
+  title: Todo lo que necesitas en la parada
+  intro: Seis paradas por la app. Baja la página y el móvil te enseña cada pantalla.
+  nearby:
+    title: Cerca de ti
+    text: Tus paradas favoritas y las más cercanas, con las próximas llegadas de cada línea.
+    in: "en %m min"
+    now: Llegando
+    first_away: En tiempo real
+    first_then: luego en 24 min
+    second_away: En tiempo real
+    second_then: luego en 33 min
+    chips: [Se actualiza solo, Favoritas con nombre propio, Búsqueda por número o nombre]
+    alt: Pantalla Cerca con las favoritas y las paradas cercanas
+  stop:
+    title: Reconoce tu parada
+    text: Cada parada tiene su foto de Street View, una brújula que te indica hacia dónde está y las llegadas de todas sus líneas.
+    detail: Parada 153 · a 30 m, hacia el norte
+    chips: ["✎ Renómbrala: «Trabajo»", ★ Favorita, Compartir]
+    alt: Detalle de la parada Pza. Alemania con su foto
+  lines:
+    title: Todas las líneas
+    text: Las regulares y las especiales, con su recorrido de ida y vuelta, su horario y si están en servicio ahora mismo. Con las horas de salida de las que tienen pocos viajes y las paradas que solo se hacen a ciertas horas.
+    active: ● Activa
+    chips: [Cada 20 min, Ida y vuelta, "Especiales: 5, 7 y 8"]
+    alt: Recorrido de la línea 1, Pza. Villardeciervos - Los Bloques
+  map:
+    title: Toda la red en el mapa
+    text: Todas las paradas y el recorrido de las líneas por las calles. Combina las líneas que quieras y toca una parada para ver sus llegadas o cómo llegar a pie.
+    legend: Las 7 líneas
+    chips: [137 paradas, Cómo llegar a pie, Modo oscuro]
+    alt: Plano de los recorridos de las líneas de Zamora
+  fares:
+    title: Tarifas a mano
+    text: Billetes y abonos con su precio, según la ordenanza municipal, para saber qué te conviene antes de subir.
+    tickets:
+      - { name: Billete ordinario, price: "1,00 €" }
+      - { name: Abono de 10 viajes, price: "0,70 €", unit: por viaje }
+      - { name: Abono mensual, price: "45 €", unit: al mes }
+    chips: [Abono diario, Tercera edad y especial, Transbordo gratis en 60 min]
+    alt: Pantalla de tarifas
+  yours:
+    title: A tu manera
+    text: Elige cómo ver los tiempos, el tema y el idioma. Funciona con TalkBack y con letra grande.
+    toggle: "Formato de llegada: en minutos o en hora"
+    relative: en 2 min
+    clock: "10:02"
+    chips: [◐ Claro y oscuro, ES · EN, Aa Letra grande, TalkBack]
+    alt: Pantalla Cerca en modo oscuro, con los tiempos en minutos
+
+gallery:
+  kicker: Capturas
+  title: Así se ve en tu móvil
+  zoom: Ampliar
+  viewer: Captura ampliada
+  close: Cerrar
+  prev: Anterior
+  next: Siguiente
+  # The Play listing's graphics, when Zamora has them (assets/img/play/es/<n>.webp). Empty: no gallery.
+  shots: []
+
+closing:
+  title: Sal de casa a tu hora
+
+footer:
+  label: Pie de página
+  privacy: Política de privacidad
+  disclaimer: Zamora Bus es una app independiente y no está vinculada a Semura Bus ni al Ayuntamiento de Zamora. Los tiempos de llegada y los recorridos son los del servicio Acércame de Semura Bus, que ha autorizado su uso.
+  trademark: Google Play y el logotipo de Google Play son marcas de Google LLC.
+
+updated: "Última actualización:"
+months: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]

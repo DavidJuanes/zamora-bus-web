@@ -1,0 +1,13 @@
+# zamora-bus-web
+
+Static site for the Zamora Bus Android app (`dev.davidjuanes.zamorabus`; app repo: GitLab `salamanca-bus/salamanca-bus`, flavor `zamora`, spec in its `docs/app-spec.md` §13.5). Jekyll 4, built by GitHub Actions, served by GitHub Pages at https://zamorabus.davidjuanes.dev/ behind Cloudflare. It started as a copy of `avila-bus-web` (GitHub `DavidJuanes/avila-bus-web`), itself a copy of `salamanca-bus-web`: fixes to the shared layout, CSS or JS usually belong in both. Push straight to `main`; every push deploys.
+
+- **i18n without plugins.** Spanish at `/`, English at `/en/`. Landing texts live in `_data/i18n/{es,en}.yml` and are rendered by `_includes/landing.html`; each page sets `lang` and a shared `ref` so the layout can find its translation (language switch, `hreflang`). Change both languages together. No automatic redirect by browser language.
+- **Privacy policy** (`privacidad.md`, `en/privacy.md`) is the URL declared in Play Console. It must match the app's Data safety form (described in the app repo's `docs/play-listing.md`): when the app starts or stops collecting something, update both policies and their `updated` date.
+- **`app-ads.txt`** holds the AdMob publisher line (`pub-0847996848911499`). AdMob crawls it from the developer website set in the Play listing.
+- **Images** in `assets/img` come from the app repo's `zamora` flavor: phone screens recorded with Roborazzi like `ZamoraScreenshotTest` (Spanish and English; `nearby-dark-clock` with the arrival format set to clock time), the icons and Open Graph images from its launcher icon (purple gradient). Converted to WebP (600 × 1300) with ImageMagick. `screens/*/map.webp` is a plan drawn from the routes of `bus-data-zamora`, not a screenshot: replace it with one from a phone. The gallery shows the Play listing graphics (`gallery.shots` in `_data/i18n`; empty hides it).
+- **Colours** are Zamora's: the provisional purple palette of the app's `src/zamora/.../ui/theme/Color.kt` and the line colours of `bus-data-zamora` (`_data/lines.yml`; white text on the dark ones).
+- **`play_live`** in `_config.yml`: false shows «Próximamente en Google Play» in place of the badge. Set it to true when the app is on Play.
+- **No third parties at runtime:** fonts are self-hosted (latin subset, OFL), no analytics, no cookies. The privacy policy says so; keep it true.
+- **Motion:** native CSS (scroll-driven animations) and vanilla JS in `assets/js/main.js`; everything stops under `prefers-reduced-motion`.
+- The Google Play badge is Google's official image; don't edit it, and keep the trademark line in the footer.

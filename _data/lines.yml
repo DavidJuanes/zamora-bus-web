@@ -1,0 +1,9 @@
+# Line badges with their colours, from bus-data-library's lines.json (bus-data-zamora). "dark" lines need dark text,
+# as the app picks by contrast.
+- { id: "1", color: "#06388B", dark: false }
+- { id: "2", color: "#C31CB5", dark: false }
+- { id: "3", color: "#0A8C34", dark: true }
+- { id: "4", color: "#D90519", dark: false }
+- { id: "5", color: "#F8C051", dark: true }
+- { id: "7", color: "#FF7A00", dark: true }
+- { id: "8", color: "#97C014", dark: true }

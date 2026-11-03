@@ -1,0 +1,5 @@
+{%- if site.play_live -%}
+<a class="play" href="{{ site.play_url }}"><img src="{{ include.t.play.badge }}" alt="{{ include.t.play.alt }}" width="212" height="82"></a>
+{%- else -%}
+<span class="play-soon">{{ include.t.play.soon }}</span>
+{%- endif -%}

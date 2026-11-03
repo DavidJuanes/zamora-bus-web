@@ -1,0 +1,105 @@
+locale: en_GB
+tagline: Real-time city bus arrivals
+home: /en/
+skip: Skip to content
+
+nav:
+  label: Main
+  features: Features
+  screenshots: Screenshots
+  privacy: Privacy
+  switch_short: ES
+  switch_name: Español
+
+play:
+  alt: Get it on Google Play
+  badge: /assets/img/google-play-badge-en.png
+  soon: Coming soon to Google Play
+
+hero:
+  eyebrow: Zamora's city buses
+  title: When's your bus coming?
+  lead: Real-time arrivals at your favourite stops and the ones closest to you.
+  note: Free · No sign-up · Android 8 or later
+  board_label: Example stop panel with the next arrivals at Plaza de Alemania
+  board_stop: STOP 153 · PZA. ALEMANIA
+
+stats:
+  label: Facts
+  lines: lines, regular and special
+  stops: stops, each with a street-level photo
+  since: a new app for Zamora
+  free: no accounts, no sign-up
+
+story:
+  kicker: Features
+  title: Everything you need at the stop
+  intro: Six stops along the app. Scroll down and the phone shows you each screen.
+  nearby:
+    title: Near you
+    text: Your favourite stops and the closest ones, with the next arrivals of every line.
+    in: "in %m min"
+    now: Arriving
+    first_away: In real time
+    first_then: then in 24 min
+    second_away: In real time
+    second_then: then in 33 min
+    chips: [Updates by itself, Favourites with your own names, Search by number or name]
+    alt: Nearby screen with favourite and nearby stops
+  stop:
+    title: Recognise your stop
+    text: Every stop has its Street View photo, a compass that points the way, and the arrivals of all its lines.
+    detail: Stop 153 · 30 m away, to the north
+    chips: ["✎ Rename it: “Work”", ★ Favourite, Share]
+    alt: Pza. Alemania stop detail with its photo
+  lines:
+    title: Every line
+    text: Regular and special lines, with their outbound and return routes, their timetable and whether they're running right now. With the departure times of those with few trips and the stops only served at some hours.
+    active: ● Running
+    chips: [Every 20 min, Outbound and return, "Special: 5, 7 and 8"]
+    alt: Route of line 1, Pza. Villardeciervos - Los Bloques
+  map:
+    title: The whole network on a map
+    text: Every stop and the route of each line through the streets. Combine any lines you like and tap a stop to see its arrivals or walking directions.
+    legend: The 7 lines
+    chips: [137 stops, Walking directions, Dark mode]
+    alt: Plan of the routes of Zamora's lines
+  fares:
+    title: Fares at hand
+    text: Tickets and passes with their price, from the city's bylaw, so you know what suits you before you board.
+    tickets:
+      - { name: Single ticket, price: "€1.00" }
+      - { name: 10-trip pass, price: "€0.70", unit: per trip }
+      - { name: Monthly pass, price: "€45", unit: a month }
+    chips: [Day pass, Senior and special passes, Free transfer within 60 min]
+    alt: Fares screen
+  yours:
+    title: Your way
+    text: Choose how to see arrival times, the theme and the language. Works with TalkBack and large text.
+    toggle: "Arrival format: minutes or clock time"
+    relative: in 2 min
+    clock: "10:02"
+    chips: [◐ Light and dark, ES · EN, Aa Large text, TalkBack]
+    alt: Nearby screen in dark mode, with times in minutes
+
+gallery:
+  kicker: Screenshots
+  title: What it looks like on your phone
+  zoom: Enlarge
+  viewer: Enlarged screenshot
+  close: Close
+  prev: Previous
+  next: Next
+  # The Play listing's graphics, when Zamora has them (assets/img/play/en/<n>.webp). Empty: no gallery.
+  shots: []
+
+closing:
+  title: Leave home right on time
+
+footer:
+  label: Footer
+  privacy: Privacy policy
+  disclaimer: Zamora Bus is an independent app, not affiliated with Semura Bus or Zamora City Council. Arrival times and routes come from Semura Bus's Acércame service, which has authorised their use.
+  trademark: Google Play and the Google Play logo are trademarks of Google LLC.
+
+updated: "Last updated:"
