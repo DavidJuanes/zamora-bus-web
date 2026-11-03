@@ -7,7 +7,7 @@ Static site for the Zamora Bus Android app (`dev.davidjuanes.zamorabus`; app rep
 - **`app-ads.txt`** holds the AdMob publisher line (`pub-0847996848911499`). AdMob crawls it from the developer website set in the Play listing.
 - **Images** in `assets/img` come from the app repo's `zamora` flavor: phone screens recorded with Roborazzi like `ZamoraScreenshotTest` (Spanish and English; `nearby-dark-clock` with the arrival format set to clock time), the icons and Open Graph images from its launcher icon (purple gradient). Converted to WebP (600 × 1300) with ImageMagick. `screens/*/map.webp` is a plan drawn from the routes of `bus-data-zamora`, not a screenshot: replace it with one from a phone. The gallery shows the Play listing graphics (`gallery.shots` in `_data/i18n`; empty hides it).
 - **Colours** are Zamora's: the provisional purple palette of the app's `src/zamora/.../ui/theme/Color.kt` and the line colours of `bus-data-zamora` (`_data/lines.yml`; white text on the dark ones).
-- **`play_live`** in `_config.yml`: false shows «Próximamente en Google Play» in place of the badge. Set it to true when the app is on Play.
+- **`play_live`** in `_config.yml`: true shows the Google Play badge, linking to the listing; false would show «Próximamente en Google Play» in its place.
 - **No third parties at runtime:** fonts are self-hosted (latin subset, OFL), no analytics, no cookies. The privacy policy says so; keep it true.
 - **Motion:** native CSS (scroll-driven animations) and vanilla JS in `assets/js/main.js`; everything stops under `prefers-reduced-motion`.
 - The Google Play badge is Google's official image; don't edit it, and keep the trademark line in the footer.

@@ -5,7 +5,7 @@ baseurl: ""
 lang: es
 author: David González Juanes
 play_url: https://play.google.com/store/apps/details?id=dev.davidjuanes.zamorabus
-play_live: false
+play_live: true
 contact_email: david.gonzalez.juanes@gmail.com
 
 plugins:
