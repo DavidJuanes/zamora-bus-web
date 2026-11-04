@@ -5,7 +5,7 @@ ref: privacy
 permalink: /privacidad/
 title: Política de privacidad
 description: Qué datos trata la app Zamora Bus, para qué y cómo ejercer tus derechos.
-updated: 2026-11-03
+updated: 2026-11-04
 locale: es_ES
 ---
 
@@ -34,7 +34,7 @@ Las paradas favoritas, sus nombres, su orden y tus preferencias (formato de los 
 
 ### Tiempos de llegada
 
-Para mostrar las próximas llegadas, la app pide al servicio de información de los autobuses urbanos de Zamora (Acércame, de Semura Bus, con la plataforma de Ingeniacom) los tiempos de la parada que estás viendo. La petición va cifrada y solo lleva el número de la parada. Como en cualquier conexión a internet, ese servidor recibe la dirección IP desde la que se hace.
+Para mostrar las próximas llegadas, la app pide al servicio de información de los autobuses urbanos de Zamora los tiempos de la parada que estás viendo. La petición va cifrada y solo lleva el número de la parada. Como en cualquier conexión a internet, ese servidor recibe la dirección IP desde la que se hace.
 
 ### Mapas
 
@@ -69,7 +69,7 @@ Este sitio está alojado en GitHub Pages y se sirve a través de Cloudflare. Com
 
 ## Con quién se comparten
 
-Solo con los proveedores mencionados, para lo que se explica en cada caso: Google (Firebase Crashlytics, Google Maps y AdMob), el servicio de tiempos de llegada de Acércame y, para servir este sitio, GitHub y Cloudflare. Google puede tratar los datos fuera del Espacio Económico Europeo con las garantías del Marco de Privacidad de Datos UE-EE. UU. y las cláusulas contractuales tipo de la Comisión Europea.
+Solo con los proveedores mencionados, para lo que se explica en cada caso: Google (Firebase Crashlytics, Google Maps y AdMob), el servicio de tiempos de llegada de los autobuses urbanos de Zamora y, para servir este sitio, GitHub y Cloudflare. Google puede tratar los datos fuera del Espacio Económico Europeo con las garantías del Marco de Privacidad de Datos UE-EE. UU. y las cláusulas contractuales tipo de la Comisión Europea.
 
 ## Tus derechos
 

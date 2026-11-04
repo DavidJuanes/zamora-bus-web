@@ -5,7 +5,7 @@ ref: privacy
 permalink: /en/privacy/
 title: Privacy policy
 description: What data the Zamora Bus app handles, why, and how to exercise your rights.
-updated: 2026-11-03
+updated: 2026-11-04
 locale: en_GB
 ---
 
@@ -34,7 +34,7 @@ Your favourite stops, their names, their order and your preferences (arrival tim
 
 ### Arrival times
 
-To show the next arrivals, the app asks the information service of Zamora's city buses (Acércame, by Semura Bus, on Ingeniacom's platform) for the times at the stop you're looking at. The request is encrypted and only carries the stop number. As with any internet connection, that server receives the IP address it comes from.
+To show the next arrivals, the app asks the information service of Zamora's city buses for the times at the stop you're looking at. The request is encrypted and only carries the stop number. As with any internet connection, that server receives the IP address it comes from.
 
 ### Maps
 
@@ -69,7 +69,7 @@ This site is hosted on GitHub Pages and served through Cloudflare. Like any web 
 
 ## Who it's shared with
 
-Only with the providers above, for the purposes described: Google (Firebase Crashlytics, Google Maps and AdMob), Acércame's arrival times service and, to serve this site, GitHub and Cloudflare. Google may process data outside the European Economic Area under the EU-US Data Privacy Framework and the European Commission's standard contractual clauses.
+Only with the providers above, for the purposes described: Google (Firebase Crashlytics, Google Maps and AdMob), the arrival times service of Zamora's city buses and, to serve this site, GitHub and Cloudflare. Google may process data outside the European Economic Area under the EU-US Data Privacy Framework and the European Commission's standard contractual clauses.
 
 ## Your rights
 
