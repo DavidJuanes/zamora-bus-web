@@ -63,7 +63,7 @@ story:
     text: Todas las paradas y el recorrido de las líneas por las calles. Combina las líneas que quieras y toca una parada para ver sus llegadas o cómo llegar a pie.
     legend: Las 7 líneas
     chips: [137 paradas, Cómo llegar a pie, Modo oscuro]
-    alt: Plano de los recorridos de las líneas de Zamora
+    alt: Mapa de Zamora en la app, con las paradas y los recorridos de cuatro líneas
   fares:
     title: Tarifas a mano
     text: Billetes y abonos con su precio, según la ordenanza municipal, para saber qué te conviene antes de subir.

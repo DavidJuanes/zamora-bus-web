@@ -63,7 +63,7 @@ story:
     text: Every stop and the route of each line through the streets. Combine any lines you like and tap a stop to see its arrivals or walking directions.
     legend: The 7 lines
     chips: [137 stops, Walking directions, Dark mode]
-    alt: Plan of the routes of Zamora's lines
+    alt: Map of Zamora in the app, with the stops and the routes of four lines
   fares:
     title: Fares at hand
     text: Tickets and passes with their price, from the city's bylaw, so you know what suits you before you board.
